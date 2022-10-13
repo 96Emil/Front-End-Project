@@ -1,0 +1,58 @@
+.landing-page {
+  background-color: #d8f3dc;
+}
+
+.landing-page-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-page-tree {
+  position: center;
+  width: 304px;
+  height: 322px;
+  left: 44px;
+  top: 335px;
+  margin-bottom: -15px;
+  z-index: 3;
+}
+
+.ground-color {
+  display: flex;
+  flex-direction: column;
+  background-color: #513c2c;
+  padding: 10px;
+  left: -80px;
+  z-index: 1;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy-button {
+  background-color: #d8f3dc;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;
+  padding: 7px;
+  width: 30%;
+  border-radius: 12px;
+  border: none;
+  color: rgb(0, 0, 0);
+}
+
+.sell-button {
+  background-color: #15b097;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;
+  padding: 7px;
+  width: 30%;
+  border-radius: 12px;
+  border: none;
+  color: white;
+}
