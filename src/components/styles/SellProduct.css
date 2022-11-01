@@ -1,0 +1,29 @@
+.input {
+  border-style: hidden;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 15px;
+  font-size: 25px;
+  height: 40px;
+  box-shadow: 0px 15px 10px -15px #111;
+}
+
+.input-text-area {
+  border-style: hidden;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 15px;
+  font-size: 25px;
+  height: 60px;
+  box-shadow: 0px 15px 10px -15px #111;
+}
+
+.publish-button {
+  border-style: hidden;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 15px;
+  font-size: 25px;
+  height: 40px;
+  box-shadow: 0px 15px 10px -15px #111;
+}

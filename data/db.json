@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "product": "Potatoes",
+      "quantity": "100 kg",
+      "price": "1 kr/kg",
+      "description": "Överbliven skörd",
+      "image": "https://mina-kvadrat.gar-bo.se/wp-content/uploads/2020/04/AdobeStock_294254993-1024x647.jpeg",
+      "place": "Liljeholmen",
+      "phone": "0701234567",
+      "id": 1
+    },
+    {
+      "product": "Carrots",
+      "quantity": "100 kg",
+      "price": "1 kr/kg",
+      "description": "Överbliven skörd",
+      "image": "https://www.ica.se//assets.icanet.se/t_epi6imagevault,f_auto/imagevaultfiles/id_220313/cf_259/morot3.jpg?",
+      "place": "Liljeholmen",
+      "phone": "0701234567",
+      "id": 2
+    },
+    {
+      "product": "Apples",
+      "quantity": "100 kg",
+      "price": "1 kr/kg",
+      "description": "Överbliven skörd",
+      "image": "https://media.nimles.com/file/0bb3eee7-9914-4be3-b52d-9191a6b6f824/2956171e-54aa-4f12-83e2-c2329dbafb2a?width=480",
+      "place": "Liljeholmen",
+      "phone": "0701234567",
+      "id": 3
+    },
+    {
+      "product": "Cucumber",
+      "quantity": "100 kg",
+      "price": "1 kr/kg",
+      "description": "Överbliven skörd",
+      "image": "https://brinksgurka.se/files/brinks6b.jpg.png",
+      "place": "Liljeholmen",
+      "phone": "0701234567",
+      "id": 4
+    },
+    {
+      "product": "Red onion",
+      "quantity": "100 kg",
+      "price": "1 kr/kg",
+      "description": "Överbliven skörd",
+      "image": "https://cdn.pixabay.com/photo/2020/09/16/17/25/onions-5577027__340.jpg",
+      "place": "Liljeholmen",
+      "phone": "0701234567",
+      "id": 5
+    },
+    {
+      "product": "Purjolök",
+      "quantity": "100 kg",
+      "price": "1 kr/kg",
+      "description": "Överbliven skörd",
+      "image": "https://imengine.lrf.infomaker.io/?uuid=4d55b3d1-7c0c-49fb-8f4d-057de2108e22&type=preview&source=&function=thumbnail&width=1200&height=630&q=80&name=purjolok-jpg",
+      "place": "Liljeholmen",
+      "phone": "0701234567",
+      "id": 6
+    }
+  ]
+}

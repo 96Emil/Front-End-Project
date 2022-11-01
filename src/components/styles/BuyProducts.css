@@ -25,24 +25,26 @@
   border-radius: 15px;
 }
 
-.card-1-background-image {
-  background-image: url("../images/AdobeStock_294254993-1024x647.jpeg");
-  height: 78%;
+.card-background-image {
+  height: 70%;
   padding-top: 8px;
+  margin-bottom: 25px;
   font-size: 1.5rem;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-size: 100%;
-  border-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .card-header {
   box-sizing: border-box;
   margin-top: 5px;
   margin-left: 10px;
-  width: 8rem;
+  width: 10rem;
   background: #ffffff;
   border: 1px solid #000000;
   border-radius: 15px;
+  overflow: hidden;
 }
 
 .card-header h3 {
@@ -72,87 +74,14 @@
   margin-top: -8px;
 }
 
+.card-info-2 h2 {
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+
 .info-button-card-1 {
-  display: flex;
-  justify-content: right;
-  align-items: right;
-}
-
-.card-2-background-image {
-  background-image: url("../images/morotter.jpg");
-  height: 68%;
-  padding-top: 8px;
-  font-size: 1.5rem;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  border-radius: 15px;
-}
-
-.card-2-info-1 {
-  display: flex;
-  justify-content: left;
-  margin-top: 8px;
-}
-
-.card-2-info-1 h3 {
-  font-size: 13px;
-  margin-left: 10px;
-  margin-top: 0;
-}
-
-.card-2-info-2 {
-  display: flex;
-  justify-content: left;
-}
-
-.card-2-info-2 p {
-  font-size: 10px;
-  font-weight: bold;
-  margin-left: 10px;
-  margin-top: -8px;
-}
-
-.info-button-card-2 {
-  display: flex;
-  justify-content: right;
-  align-items: right;
-}
-
-.card-3-background-image {
-  background-image: url("../images/applen.jpg");
-  height: 69%;
-  padding-top: 8px;
-  font-size: 1.5rem;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  border-radius: 15px;
-}
-
-.card-3-info-1 {
-  display: flex;
-  justify-content: left;
-  margin-top: 8px;
-}
-
-.card-3-info-1 h3 {
-  font-size: 13px;
-  margin-left: 10px;
-  margin-top: 0;
-}
-
-.card-3-info-2 {
-  display: flex;
-  justify-content: left;
-}
-
-.card-3-info-2 p {
-  font-size: 10px;
-  font-weight: bold;
-  margin-left: 10px;
-  margin-top: -8px;
-}
-
-.info-button-card-3 {
   display: flex;
   justify-content: right;
   align-items: right;
@@ -165,10 +94,11 @@
   background-color: #d8f3dc;
   text-decoration: none;
   font-size: 1.6rem;
-  margin-top: -60px;
+  margin-top: -46px;
   margin-bottom: 15px;
   margin-right: 20px;
-  width: 50%;
+  width: 55%;
+  height: 40px;
   border-radius: 12px;
   border: 2px solid black;
   color: rgb(0, 0, 0);
