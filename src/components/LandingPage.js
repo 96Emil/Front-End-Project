@@ -6,9 +6,6 @@ const LandingPage = () => {
     <div className="landing-page">
       <div className="landing-page-container">
         <div>
-          <h1>Taste The Waste</h1>
-        </div>
-        <div>
           <h2>Din handelsplats för att minimera matsvinnet</h2>
         </div>
         <div>

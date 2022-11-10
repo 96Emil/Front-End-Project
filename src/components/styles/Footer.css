@@ -1,0 +1,47 @@
+.footer {
+  background-color: #513c2c;
+}
+
+.footer-logos {
+  height: 5rem;
+  width: auto;
+  margin: 1.5rem;
+}
+
+.footer-header {
+  color: #fff;
+  padding-top: 1.5rem;
+}
+
+.copyright {
+  padding-bottom: 2rem;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 750px) {
+  .footer-logos {
+    margin-left: 3.4rem;
+    margin-right: 3.4rem;
+  }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 900px) {
+  .footer-logos {
+    margin-left: 4.9rem;
+    margin-right: 4.9rem;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1050px) {
+  .footer-logos {
+    margin-left: 6.5rem;
+    margin-right: 6.5rem;
+  }
+}
+
+@media only screen and (min-width: 1050px) and (max-width: 1400px) {
+  .footer-logos {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+}

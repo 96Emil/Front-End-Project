@@ -1,9 +1,8 @@
 import { useParams } from "react-router-dom";
 import UseFetch from "./UseFetch";
-import "../components/styles/ProductInfo.css";
 import { Link } from "react-router-dom";
 
-const ProductInfo = () => {
+const ConfirmPurchase = () => {
   const { id } = useParams();
   const {
     data: post,
@@ -16,8 +15,8 @@ const ProductInfo = () => {
       {isPending && <div>Loading...</div>}
       {error && <div>{error}</div>}
       {post && (
-        <div>
-          <h1>Produktinformation</h1>
+        <div className="card">
+          <h1>Vald produkt</h1>
           <div className="product-info-container">
             <div className="product">
               <h2>Produkt</h2>
@@ -49,50 +48,9 @@ const ProductInfo = () => {
                 value={`${post.price}`}
               />
             </div>
-            <div>
-              <h2>Beskrivning</h2>
-              <textarea
-                readonly
-                type="text"
-                name="description"
-                className="read-only-input"
-                value={`${post.description}`}
-              />
-            </div>
-            <div>
-              <img
-                className="product-image"
-                key={post.image}
-                src={post.image}
-                alt="bild"
-              />
-            </div>
-            <div>
-              <h2>Plats för upphämtning</h2>
-              <input
-                readonly
-                type="text"
-                name="place"
-                className="read-only-input"
-                value={`${post.place}`}
-              />
-            </div>
-            <div>
-              <h2>Telefon</h2>
-              <input
-                readonly
-                type="text"
-                name="phone"
-                className="read-only-input"
-                value={`${post.phone}`}
-              />
-            </div>
             <div className="buttons">
-              <Link to={`/ConfirmPurchase/${post.id}`} className="buy-button">
-                Köp
-              </Link>
-              <Link to="/BuyProducts" className="back-button">
-                Gå tillbaka
+              <Link to={`/Receipt/${post.id}`} className="buy-button">
+                Bekräfta köp
               </Link>
             </div>
           </div>
@@ -102,4 +60,4 @@ const ProductInfo = () => {
   );
 };
 
-export default ProductInfo;
+export default ConfirmPurchase;
