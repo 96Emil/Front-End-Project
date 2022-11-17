@@ -35,6 +35,7 @@
   background-color: #513c2c;
   padding: 10px;
   left: -80px;
+  border-bottom: solid 4px grey;
 }
 
 .buttons {

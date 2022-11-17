@@ -22,7 +22,7 @@ const ProductInfo = () => {
             <div className="product">
               <h2>Produkt</h2>
               <input
-                readonly
+                readOnly
                 type="text"
                 name="product"
                 className="read-only-input"
@@ -32,27 +32,29 @@ const ProductInfo = () => {
             <div>
               <h2>Kvantitet</h2>
               <input
-                readonly
+                readOnly
                 type="text"
                 name="quantity"
-                className="read-only-input"
+                className="quantity-read-only-input"
                 value={`${post.quantity}`}
               />
+              <div className="input-explainer">kg</div>
             </div>
             <div>
               <h2>Pris</h2>
               <input
-                readonly
+                readOnly
                 type="text"
                 name="price"
-                className="read-only-input"
+                className="price-read-only-input"
                 value={`${post.price}`}
               />
+              <div className="input-explainer">kr</div>
             </div>
             <div>
               <h2>Beskrivning</h2>
               <textarea
-                readonly
+                readOnly
                 type="text"
                 name="description"
                 className="read-only-input"
@@ -70,7 +72,7 @@ const ProductInfo = () => {
             <div>
               <h2>Plats för upphämtning</h2>
               <input
-                readonly
+                readOnly
                 type="text"
                 name="place"
                 className="read-only-input"
@@ -80,7 +82,7 @@ const ProductInfo = () => {
             <div>
               <h2>Telefon</h2>
               <input
-                readonly
+                readOnly
                 type="text"
                 name="phone"
                 className="read-only-input"

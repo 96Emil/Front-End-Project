@@ -30,12 +30,12 @@ const Products = ({ posts }) => {
             <div key={post.id}>
               <div className="card-info-1">
                 <h3>
-                  Mängd: {post.quantity}
-                  <br /> Pris: {post.price}
+                  {post.quantity} kg
+                  <br /> {post.price} kr
                 </h3>
               </div>
               <div className="card-info-2">
-                <h2>Plats: {post.place}</h2>
+                <h2>{post.place}</h2>
               </div>
               <div className="info-button-card-1">
                 <Link

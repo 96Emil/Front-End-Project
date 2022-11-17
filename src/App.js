@@ -8,7 +8,7 @@ import BuyProducts from "./components/BuyProducts";
 import ProductInfo from "./components/ProductInfo";
 import SellProduct from "./components/SellProduct";
 import ConfirmPurchase from "./components/ConfirmPurchase";
-import Receipt from "./components/Receipt";
+import PurchaseConfirmed from "./components/PurchaseConfirmed";
 import Footer from "./components/Footer";
 import { FaCarrot } from "react-icons/fa";
 
@@ -61,7 +61,7 @@ class App extends Component {
             <Route path="/sellproduct" element={<SellProduct />} />
             <Route path="/productinfo/:id" element={<ProductInfo />} />
             <Route path="/confirmpurchase/:id" element={<ConfirmPurchase />} />
-            <Route path="/receipt/:id" element={<Receipt />} />
+            <Route path="/purchaseconfirmed" element={<PurchaseConfirmed />} />
           </Routes>
         </Router>
         <Footer />
