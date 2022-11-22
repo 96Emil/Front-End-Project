@@ -1,5 +1,10 @@
 .footer {
   background-color: #513c2c;
+  position: absolute;
+  height: 55%;
+  width: 100%;
+  left: 0;
+  z-index: -1;
 }
 
 .footer-logos {
@@ -10,7 +15,8 @@
 
 .footer-header {
   color: #fff;
-  padding-top: 1.5rem;
+  padding-top: 4rem;
+  margin-left: 2rem;
 }
 
 .copyright {

@@ -14,6 +14,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+In the terminal type 'cd taste-the-waste' if you are not already in the correct project directory.
+
+To run the json-server type 'npx json-server --watch data/db.json --port 8000' in the terminal once you are in the correct project directory.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\

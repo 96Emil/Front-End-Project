@@ -1,5 +1,5 @@
 .product-info-container {
-  margin: 1rem;
+  margin: 2rem;
 }
 
 .product-info {
@@ -7,7 +7,7 @@
 }
 
 .product-info-input {
-  margin: 1rem;
+  margin: 2rem;
 }
 
 .input {
@@ -68,7 +68,20 @@
   background-color: #15b097;
   text-decoration: none;
   font-size: 20px;
-  margin-top: 30px;
+  padding: 7px;
+  padding-left: 6.2rem;
+  padding-right: 6.2rem;
+  width: 18.4rem;
+  border-radius: 12px;
+  border: none;
+  color: #fff;
+}
+
+.sell-product-back-button {
+  background-color: #15b097;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: -10px;
   margin-bottom: 20px;
   padding: 7px;
   width: 18.4rem;

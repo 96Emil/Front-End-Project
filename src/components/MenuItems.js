@@ -1,16 +1,16 @@
 export const MenuItems = [
   {
-    title: "Home",
+    title: "Hem",
     url: "/",
     cName: "nav-links",
   },
   {
-    title: "Buy products",
+    title: "Köp produkter",
     url: "/BuyProducts",
     cName: "nav-links",
   },
   {
-    title: "Sell products",
+    title: "Sälj produkter",
     url: "/SellProduct",
     cName: "nav-links",
   },

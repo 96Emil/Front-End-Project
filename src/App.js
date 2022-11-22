@@ -9,7 +9,6 @@ import ProductInfo from "./components/ProductInfo";
 import SellProduct from "./components/SellProduct";
 import ConfirmPurchase from "./components/ConfirmPurchase";
 import PurchaseConfirmed from "./components/PurchaseConfirmed";
-import Footer from "./components/Footer";
 import { FaCarrot } from "react-icons/fa";
 
 class App extends Component {
@@ -64,7 +63,6 @@ class App extends Component {
             <Route path="/purchaseconfirmed" element={<PurchaseConfirmed />} />
           </Routes>
         </Router>
-        <Footer />
       </div>
     );
   }

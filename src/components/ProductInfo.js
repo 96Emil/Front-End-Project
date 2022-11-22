@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import UseFetch from "./UseFetch";
 import "../components/styles/ProductInfo.css";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 const ProductInfo = () => {
   const { id } = useParams();
@@ -62,6 +63,7 @@ const ProductInfo = () => {
               />
             </div>
             <div>
+              <h2>Bild</h2>
               <img
                 className="product-image"
                 key={post.image}
@@ -93,13 +95,14 @@ const ProductInfo = () => {
               <Link to={`/ConfirmPurchase/${post.id}`} className="buy-button">
                 Köp
               </Link>
-              <Link to="/BuyProducts" className="back-button">
+              <Link to="/BuyProducts" className="product-info-back-button">
                 Gå tillbaka
               </Link>
             </div>
           </div>
         </div>
       )}
+      <Footer />
     </div>
   );
 };

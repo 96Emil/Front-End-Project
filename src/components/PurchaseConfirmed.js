@@ -1,5 +1,6 @@
 import "../components/styles/PurchaseConfirmed.css";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 const PurchaseConfirmed = () => {
   return (
@@ -13,11 +14,12 @@ const PurchaseConfirmed = () => {
       </div>
       <div className="tree-container">
         <img
-          className="landing-page-tree"
+          className="purchase-confirmed-tree"
           src={require("../components/images/colorful-natural-tree-vector-clipart.png")}
           alt="tree"
         />
       </div>
+      <Footer />
     </div>
   );
 };

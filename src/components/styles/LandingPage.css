@@ -20,22 +20,26 @@
   margin-right: 15px;
 }
 
+.tree-container {
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 2rem;
+}
+
 .landing-page-tree {
   position: center;
-  width: 304px;
-  height: 322px;
-  left: 44px;
-  top: 335px;
-  margin-bottom: -15px;
+  width: 25rem;
+  height: 30%;
+  margin-bottom: -1rem;
+  margin-top: 2rem;
 }
 
 .ground-color {
   display: flex;
   flex-direction: column;
   background-color: #513c2c;
-  padding: 10px;
+  padding: 33.5px;
   left: -80px;
-  border-bottom: solid 4px grey;
 }
 
 .buttons {
@@ -43,13 +47,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 
 .buy-button {
   background-color: #d8f3dc;
   text-decoration: none;
   font-size: 20px;
-  margin: 10px;
+  margin: 30px;
   padding: 7px;
   width: 15rem;
   border-radius: 12px;
@@ -61,7 +66,7 @@
   background-color: #15b097;
   text-decoration: none;
   font-size: 20px;
-  margin: 10px;
+  margin: 30px;
   padding: 7px;
   width: 18.5rem;
   border-radius: 12px;

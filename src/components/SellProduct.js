@@ -2,6 +2,7 @@ import "../components/styles/SellProduct.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 const SellProduct = () => {
   const [product, setProduct] = useState("");
@@ -138,7 +139,13 @@ const SellProduct = () => {
                 Publicera
               </Link>
             }
+            <div className="buttons">
+              <Link to="/" className="sell-product-back-button">
+                Gå tillbaka
+              </Link>
+            </div>
           </div>
+          <Footer />
         </form>
       </div>
     </div>

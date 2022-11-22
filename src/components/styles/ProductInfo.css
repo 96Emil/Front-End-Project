@@ -1,5 +1,6 @@
 .product-info {
   background-color: #d8f3dc;
+  width: 100%;
 }
 
 .read-only-input {
@@ -46,14 +47,15 @@
   width: 19.2rem;
   height: auto;
   border-radius: 15px;
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .buy-button {
   background-color: #15b097;
   text-decoration: none;
   font-size: 20px;
-  margin-top: 30px;
+  margin-top: -15px;
   margin-bottom: 20px;
   padding: 7px;
   width: 18.4rem;
@@ -62,11 +64,11 @@
   color: white;
 }
 
-.back-button {
+.product-info-back-button {
   background-color: #15b097;
   text-decoration: none;
   font-size: 20px;
-  margin-top: 30px;
+  margin-top: 15px;
   margin-bottom: 20px;
   padding: 7px;
   width: 18.4rem;
