@@ -3,6 +3,10 @@
   width: 100%;
 }
 
+.product h2 {
+  margin: 10px;
+}
+
 .read-only-input {
   border-style: hidden;
   border-radius: 15px;

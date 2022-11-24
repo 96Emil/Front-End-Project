@@ -1,7 +1,7 @@
 {
   "posts": [
     {
-      "product": "Potatoes",
+      "product": "Potatis",
       "quantity": "200",
       "price": "400",
       "description": "Överbliven skörd",
@@ -11,32 +11,32 @@
       "id": 1
     },
     {
-      "product": "Apples",
+      "product": "Äpplen",
       "quantity": "50",
       "price": "150",
       "description": "Överbliven skörd",
       "image": "https://media.nimles.com/file/0bb3eee7-9914-4be3-b52d-9191a6b6f824/2956171e-54aa-4f12-83e2-c2329dbafb2a?width=480",
-      "place": "Liljeholmen",
+      "place": "Högdalen",
       "phone": "0701234567",
       "id": 2
     },
     {
-      "product": "Cucumber",
+      "product": "Gurkor",
       "quantity": "30",
       "price": "80",
       "description": "Överbliven skörd",
       "image": "https://brinksgurka.se/files/brinks6b.jpg.png",
-      "place": "Liljeholmen",
+      "place": "Bagarmossen",
       "phone": "0701234567",
       "id": 3
     },
     {
-      "product": "Red onion",
+      "product": "Rödlök",
       "quantity": "10",
       "price": "50",
       "description": "Överbliven skörd",
       "image": "https://cdn.pixabay.com/photo/2020/09/16/17/25/onions-5577027__340.jpg",
-      "place": "Liljeholmen",
+      "place": "Fruängen",
       "phone": "0701234567",
       "id": 4
     },
@@ -46,7 +46,7 @@
       "price": "250",
       "description": "Överbliven skörd",
       "image": "https://imengine.lrf.infomaker.io/?uuid=4d55b3d1-7c0c-49fb-8f4d-057de2108e22&type=preview&source=&function=thumbnail&width=1200&height=630&q=80&name=purjolok-jpg",
-      "place": "Liljeholmen",
+      "place": "Solna",
       "phone": "0701234567",
       "id": 5
     },
@@ -56,7 +56,7 @@
       "price": "400",
       "description": "Överbliven skörd",
       "image": "https://blekingefrukttradplantskola.files.wordpress.com/2020/10/pears.jpg?w=1920&h=1200&crop=1",
-      "place": "Liljeholmen",
+      "place": "Farsta",
       "phone": "0701234567",
       "id": 6
     }
